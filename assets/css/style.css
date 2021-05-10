@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(153, 194, 248);
+    font-family: 'Inconsolata', monospace;
+}
+.header{
+    background-color: rgb(153, 194, 248);
+    height: 70px;
+
+}
+.logo{
+    float: left;
+    padding: 10px;
+}
+.logo img {
+    width: 80px;
+    height: 50px;
+}
+.menu{
+    float: right;
+    margin: 24px;
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+.banner{
+    background-image: url(../img/gabo.jpg);
+    background-size: cover;
+    height: 550px;
+}
+.banner h1 {
+    text-align: right;
+    font-size: 80px;
+    padding: 150px 50px;
+}
+.banner2{
+    background-image: url(../img/libro1.jpg);
+    background-size: cover;
+    height: 550px;
+}
+.obras{
+    width: auto;
+    margin: auto;
+}
+.obras .tdObras{
+    padding: 50px;
+}
+.botonObras{
+    width: 90px;
+    height: 80px;
+    background-color: #ff3b85;
+    line-height: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.botonObras :hover{
+    opacity: 0.9;
+}
+.botonObras a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.description{
+    background-color: #009500;
+    color: white;
+    padding: 20px 100px 70px 100px;
+    text-align: justify;
+}
+.description h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+.description p{
+    font-size: 30px;
+}
+.description a{
+    text-decoration: none;
+    color: deepskyblue;
+    font-weight: bolder;
+}
+.biografia{
+    background-color: #009500;
+    color: white;
+    padding: 20px 100px 70px 100px;
+    text-align: justify;
+}
+.biografia h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+.biografia p{
+    font-size: 30px;
+}
+.premios{
+    text-align: center;
+    padding: 10px;
+}
+.premios table{
+    padding: 30px 100px;
+}
+.premios h2{
+    font-size: 45px;
+}
+.premios td{
+    font-size: 25px;
+    text-align: left;
+    padding: 0px 20px;
+}
+.premios .year{
+    background-color: #fda824;
+    border: 2px solid blue;
+    padding: 2px 10px;
+}
+.multimedia{
+    text-align: center;
+    padding: 20px 100px 70px 100px;
+}
+.multimedia h2{
+    padding: 10px;
+    font-size: 50px;
+}
+.trailer{
+    width: 809px;
+    height: 445px;
+    margin: auto;
+}
+.comprar{
+    width: auto;
+    margin: auto;
+}
+.comprar .tdComprar{
+    padding: 50px;
+}
+.botonComprar{
+    width: 90px;
+    height: 50px;
+    background-color: #009500;
+    line-height: 45px;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.botonComprar :hover{
+    opacity: 0.9;
+}
+.botonComprar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+footer{
+    background-color: #009500;
+    color: white;
+    text-align: center;
+    padding: 20px 100px;
+    font-size: 25px;
+}
